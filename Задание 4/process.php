@@ -19,7 +19,7 @@
         $comments = $_POST["comments"];
         $birthdate = $_POST["birthdate"];
         $profile_picture = $_FILES["profile_picture"]["name"];
-        $eye_colour = $_POST["eye_color"];
+        $eye_color = $_POST["eye_color"];
         $height = $_POST["height"];
         $email = $_POST["email"];
 
@@ -34,7 +34,7 @@
         if (!empty($profile_picture)) {
             echo "<p>Фотография профиля: $profile_picture</p>";
         }
-        echo "<p>Цвет глаз: $eye_colour</p>";
+        echo "<p>Цвет глаз: $eye_color</p>";
         echo "<p>Рост: $height см</p>";
         echo "<p>Email: $email</p>";
     }
