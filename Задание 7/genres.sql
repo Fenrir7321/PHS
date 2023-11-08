@@ -1,6 +1,6 @@
 CREATE TABLE Genres (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL
+    name VARCHAR(255)
 );
 
 INSERT INTO Genres (name) VALUES
