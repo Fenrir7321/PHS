@@ -78,7 +78,7 @@ class Calculator {
 }
 
 $calc = new Calculator();
-echo 'sum = ' . $calc->calculate('+', 10, 2) . '<br>';
-echo 'difference = ' . $calc->calculate('-', 10, 2) . '<br>';
-echo 'product = ' . $calc->calculate('*', 10, 2) . '<br>';
-echo 'quotient = ' . $calc->calculate('/', 10, 2) . '<br>';
+echo 'sum = ' . $calc->calculate('+', 73, 21) . '<br>';
+echo 'difference = ' . $calc->calculate('-', 73, 21) . '<br>';
+echo 'product = ' . $calc->calculate('*', 73, 21) . '<br>';
+echo 'quotient = ' . $calc->calculate('/', 73, 21) . '<br>';
